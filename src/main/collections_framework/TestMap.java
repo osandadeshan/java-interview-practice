@@ -20,14 +20,14 @@ public class TestMap {
             put("Eranga", "SE");
         }};
 
-        // using for-each loop for iteration over Map.entrySet()
+        // Using for-each loop for iteration over Map.entrySet()
         for (Map.Entry<String, String> entry : namesMap.entrySet())
             System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
 
-        // using keySet() for iteration over keys
+        // Using keySet() for iteration over keys
         for (String name : namesMap.keySet())
             System.out.println("key: " + name);
-        // using values() for iteration over values
+        // Using values() for iteration over values
         for (String url : namesMap.values())
             System.out.println("value: " + url);
 
